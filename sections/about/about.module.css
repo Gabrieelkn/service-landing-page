@@ -1,0 +1,29 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.about img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .wrapper {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    text-align: start;
+  }
+}
