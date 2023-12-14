@@ -33,9 +33,5 @@ export default function Home() {
 }
 
 function Anchor({ id }) {
-  return (
-    <div id={id} className={styles.anchor}>
-      {id}
-    </div>
-  );
+  return <div id={id} className={styles.anchor}></div>;
 }

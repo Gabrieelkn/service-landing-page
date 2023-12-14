@@ -98,6 +98,11 @@
   flex-flow: row wrap;
   gap: 2rem;
 }
+
+.contactFormDiv {
+  width: 100%;
+}
+
 @media (min-width: 1024px) {
   .flexRowContainer {
     justify-content: space-between;
